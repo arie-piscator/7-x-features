@@ -130,11 +130,4 @@ class StringOperationsTest extends TestCase
 
         $this->assertEquals('What Is This Article About?', $result);
     }
-
-    /** @test */
-    public function it_creates_a_uuid()
-    {
-        $result = Str::uuid();
-        dd($result);
-    }
 }
