@@ -7,6 +7,7 @@ In this repository some new features of Laravel 7 are used, for educational purp
 ### Features
 
 - Fluent String Operations.
+- Stub Customization.
 
 ## Usage
 
