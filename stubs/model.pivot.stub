@@ -8,5 +8,3 @@ class {{ class }} extends Pivot
 {
     //
 }
-
-controller.
