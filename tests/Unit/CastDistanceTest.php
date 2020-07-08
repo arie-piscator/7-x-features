@@ -35,13 +35,11 @@ class CastDistanceTest extends TestCase
     /** @test */
     public function it_returns_a_distance_object()
     {
-        $planet = new Planet();
-
-        $planet->name = 'Mars';
-        $planet->distance = new DistanceFromEarth(
-            225000000,
-            'KM'
-        );
+        $planet = Planet::create([
+            'name' => 'Mars',
+            'measurement' => 225000000,
+            'unit' => 'KM',
+        ]);
 
         $this->assertEquals(new DistanceFromEarth(225000000, 'KM'), $planet->distance);
     }
