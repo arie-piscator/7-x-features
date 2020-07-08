@@ -8,7 +8,8 @@ In this repository some new features of Laravel 7 are used, for educational purp
 
 - Fluent String Operations.
 - Stub Customization.
+- Value Object Casting.
 
 ## Usage
 
-All features are discovered in unit tests. Run the tests by executing `php artisan test`.
+Some features are discovered in unit tests. Run the tests by executing `php artisan test`.
